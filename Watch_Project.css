@@ -1,0 +1,491 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    overflow: hidden;
+    height: 500px;
+    width: 800px;
+    
+    min-width: 600px;
+    max-width: 900px;
+    width: calc(100%-100px);
+
+
+}
+.option .options{
+    position: relative;
+    overflow: hidden;
+    min-width: 70px;
+    margin: 10px;
+    background: var(--optionBackground,var(--defaultBackground, #e6e9ed));
+    background-size: auto 110px;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.5s cubic-bezier(0.05,0.67,0.41,0.95);
+}
+.option .options:nth-child(1){
+    --defaultBackground:#ed5565;
+}
+.option .options:nth-child(2){
+    --defaultBackground:#5d55ed;
+}
+.option .options:nth-child(3){
+    --defaultBackground:#55ed94;
+}
+.option .options:nth-child(4){
+    --defaultBackground:#cced55;
+}
+.option .options:nth-child(5){
+    --defaultBackground:#ed9455;
+}
+.option .options.active{
+    flex-grow: 10000;
+    transform: scale(1.5);
+    max-width: 600px;
+    margin: 0px;
+    border-radius: 40px;
+    background-size: auto 100%;
+}
+.option .options.active .shadow{
+    box-shadow: inset 0 -120px 120px -120px black,inset 0 -120px 120px -100px black;
+
+}
+.option .options.active .label{
+    bottom: 20px;
+    left: 20px;
+
+}
+.option .options.active .label .info > div{
+    left: 0;
+    opacity: 1;
+}
+.option .options:not(.active){
+    flex-grow: 1;
+    border-radius: 30px;
+}
+.option  .options:not(.active) .shadow{
+    bottom:-40px;
+    box-shadow: inset 0 -120px 120px -120px black,inset 0 -120px 120px -100px black;
+
+
+}
+.option  .options:not(.active) .label{
+    bottom:10px;
+    left: 10px;
+}
+.option .options .shadow{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 120px;
+    transition: 0.5s cubic-bezier(0.05,0.67,0.41,0.95) ;
+}
+.option .options .label{
+    display: flex;
+    position: absolute;
+   
+    right: 0px;
+    height: 40px;
+    transition: 0.5s cubic-bezier(0.05,0.67,0.41,0.95) ;
+}
+.option .options .label .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    color: white;
+    white-space: pre;
+
+}
+.option .options .label .info > div{
+    position: relative;
+    transition: 0.5s cubic-bezier(0.05,0.67,0.41,0.95),opacity 0.5s ease-out ;
+
+}
+.option .options .label .info .main{
+    font-weight: blod;
+    font-size: 0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Win Lwin Moe */
+ body{
+	background-color: white;
+	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	} 
+img{
+    width: 400px;
+    height: 400px;
+	
+	border-radius: 40px;
+}
+h1{
+	font-size: 1cm;
+	text-align: center;
+	font-family: "Audiowide", sans-serif;
+	
+
+	position: relative;
+	
+	text-transform: uppercase;
+	min-height: 1cm;
+	
+
+	
+
+}
+h1:before{
+	content: attr(data-text);
+	position: absolute;
+	top: -70%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	-webkit-text-stroke:0.05cm;
+	color: black;
+	
+	overflow: hidden;
+	animation: animate 6s ;
+	animation-iteration-count: infinite;
+
+}
+@keyframes animate{
+    0%{
+    	width: 0%;
+    }
+    70%{
+    	width: 100%;
+    }
+}
+
+.for_you{
+	text-decoration: underline;
+	font-size: 0.8cm;
+	font-family: "Audiowide", sans-serif;
+	margin-left: 45%;
+	margin-top: -8%;
+	color: black;
+
+
+	
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+.collection{
+		text-decoration: underline;
+	font-size: 0.6cm;
+	font-family: "Audiowide", sans-serif;
+	margin-left: 50%;
+	margin-top: -4.1%;
+	color: white;
+
+}
+.container{
+	display: flex;
+	justify-content: center;
+
+}
+.card{
+	background-color: white;
+	width: 300px;
+	height: 400px;
+	margin: 60px;
+	border: 1px solid black;
+	border-radius:20px;
+}
+.card-image{
+	background-color: ghostwhite;
+	border-radius: 20px 20px 0px 0px;
+	height: 300px;
+
+
+}
+.watch1{
+	background-image: url('wlmimages/watch.jpg');
+	background-size: 300px 230px;
+	height: 200px;
+	image-resolution: 300dpi;
+	padding-top:10% ;
+   
+
+}
+.watch2{
+	background-image: url('wlmimages/ezgif.com-webp-to-jpg.jpg');
+	background-size: 300px 225px;
+	height: 200px;
+	image-resolution: 300dpi;
+	padding-top: 10%;
+
+}
+.watch3{
+	background-image: url('wlmimages/watch1.jpg');
+	background-size: 300px 230px;
+	height: 200px;
+	image-resolution: 300dpi;
+	padding-top: 10%;
+
+}
+.watch4{
+	background-image: url('wlmimages/s_watch12.jpg');
+	background-size: 350px 230px;
+	height: 200px;
+	image-resolution: 300dpi;
+	padding-top: 10%;	
+}
+.watch5{
+	background-image: url('wlmimages/watch012.jpg');
+	background-size: 370px 230px ;
+	height: 200px;
+	image-resolution: 300dpi;
+	padding-top: 10%;
+
+
+
+}
+.watch6{
+	background-image: url('wlmimages/Samsung-Galaxy-Watch-61.jpg');
+	background-size: 340px 230px;
+	height: 200px;
+	image-resolution: 300dpi;
+	padding-top: 10%;	
+}
+h2{
+	text-align: center;
+	font-family: "Audiowide", sans-serif;
+
+}
+.h{
+	font-size: 0.8cm;
+	text-decoration: underline;
+	font-family: "Audiowide", sans-serif;
+	color: black;
+	margin-left: 12%;
+	padding-top: 0%;
+}
+.hh{
+	font-size: 0.8cm;
+	text-decoration: underline;
+	font-family: "Audiowide", sans-serif;
+	color: black;
+	margin-left: 12%;
+	padding-top: 1%;
+
+}
+.p{
+	
+	color: deepskyblue;
+	text-align: center;
+	margin-top: 20%;
+	
+
+    
+}
+
+.p1{
+	text-align: center;
+	margin-bottom: 100%;
+	font-size: 0.7em;
+	color: black;
+	
+}
+
+
+.p3{
+	color: deepskyblue;
+	text-align: center;
+	margin-top: 10%;
+}
+.p4{
+	text-align: center;
+	font-size: 0.7em;
+	margin-bottom: 80%;
+	color: black;
+}
+
+.card:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+.image{
+	width:100%;
+	height: 30%;
+
+}
+.image1{
+	
+	margin-left: 5%;
+	margin-top: -5%;
+}
+.image1:before{
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	-webkit-text-stroke:0.05cm;
+	color: white;
+	
+	overflow: hidden;
+	animation: animate1 6s ;
+	animation-iteration-count: infinite;
+	border-right: 2px solid white;
+}
+@keyframes animate1{
+    0%,10%,100%{
+    	width: 0%;
+    }
+    70%,90%{
+    	width: 100%;
+    }
+}
+p1{
+	position: absolute;
+	top: 123%;
+	left: 50%;
+	
+	color: black;
+	transform: translate(-50%,-50%);
+	font-size: 1.5cm;
+
+}
+.text{
+		position: absolute;
+	top: 220%;
+	left: 50%;
+	
+	color: black;
+	transform: translate(-50%,-50%);
+	font-size: 1.5em;
+	
+
+}
+.buttom_A{
+			position: absolute;
+	top: 230%;
+	left: 50%;
+	
+	color: black;
+	transform: translate(-50%,-50%);
+	border-radius: 30px;
+	width: 6%;
+	height: 6%;
+	background-color: deepskyblue;
+	color: white;
+	font-size: 1em;
+
+}
+.buttom_A:hover{
+	background-color: black;
+}
+.text1{
+	position: absolute;
+	top: 10px;
+	left: 75%;
+	font-size: 1cm;
+	font-family: cursive;
+}
+.top_right{
+	position: relative;
+	text-align: center;
+	color: black;
+}
+.learn_more{
+		position: absolute;
+	top: 70px;
+	left: 82%;
+	font-size: 0.6cm;
+	color: deepskyblue;
+	text-decoration: underline;
+}
+.learn_more:hover{
+	color: black;
+}
+.samsung1{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.samsung_text1{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	color: black;
+	font-size:1.3cm ;
+
+}
+.samsung_text2{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	color: black;
+	font-size:1.3cm ;
+	font-family: cursive;
+
+}
+.S_buttom{
+	position: absolute;
+	top: 60%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	border-radius: 30px;
+	width: 90px;
+	height: 40px;
+	background-color: deepskyblue;
+	color: white;
+	
+	
+
+}
+.S_buttom:hover{
+    background-color: black;
+}
+.title{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.Apple{
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size:1.3cm ;
+	
+
+}
