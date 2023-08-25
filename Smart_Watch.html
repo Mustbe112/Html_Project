@@ -6,10 +6,31 @@
 	<title>Smart Watch</title>
 	<link rel="stylesheet" type="text/css" href="Smart_Watch_Style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".name").click(function() {
+				$(".info_more").slideDown("slow");
+			});
+		});
+	</script>
 </head>
 <body>
-	
-	
+	<div class="title_Apple">
+		<img src="Apple_Watch_Ultra.png" style="width:100%;height: 100%;">
+		<h3 class="apple_title">Find New Experience With Ultra</h3>
+		<a href="#" target="_self"><button class="button_apple">Buy</button></a>
+	</div>
+
+    <div class="title">
+		<img src="ezgif.com-webp-to-jpg.jpg" style="width: 100%;height: 100%;">
+		
+		<h1 class="Apple">Watch Our World</h1>
+		<button class="button_series8">Buy</button>
+
+
+	</div>
 	<div>
 		<h1 data-text="Apple_Watch_Series_8"></h1>
 
@@ -24,24 +45,24 @@
         	<img src="a_watch1.jpg" style="width: 100%; height: 100%;">
         	<p1>watchOS 10</p1>
         	<p class="text">Everything you love. Like never before.</p>
-        	<a href="#"><button class="buttom_A">Buy</button></a>
+        	<a href="#" target="_self"><button class="buttom_A">Buy</button></a>
         	
         </div>
         <div class="top_right">
         	<img src="og__n5qzveqr596m.png" style="width: 100%; height: 100%;">
         	<p class="text1">Explore With Us</p>
-        	<a href="#"><p class="learn_more">Learn more</p></a>
+        	<a href="#" target="_self"><p class="learn_more">Learn more</p></a>
         </div>	
 
 
         <div>
-        	<p class="h">APPLE</p>
+        	<p class="h">Apple Watch Series</p>
         </div>
         
 		<section class="container">
 		
 			<div class="card">
-				<a href="#">
+				<a href="#" target="_self">
 				<div class="card-image watch1">
 					
 				</div>
@@ -53,12 +74,12 @@
 			</div>
 		        </a>
 			<div class="card">
-				<a href="#">
+				<a href="#" target="_self">
 				<div class="card-image watch2">
 					
 				</div>
 				<h2>Apple Watch Series 8</h2>
-				<a href="#">
+				<a href="#" target="_self">
 				<p class="p" id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">From $647.99</p>
 			    </a>
 				<p class="p1">From $900.00 before eligible trade-in</p>
@@ -66,7 +87,7 @@
 			</div>
 		    </a>
 			<div class="card">
-				<a href="#">
+				<a href="#" target="_self">
 				<div class="card-image watch3">
 					
 				</div>
@@ -83,16 +104,16 @@
 	    </div>
 	    <div>
         <div>
-        	<p class="hh">SAMSUNG</p>
+        	<p class="hh">Apple Watch Ultra</p>
         </div>	    	
 	    			<section class="container">
 		
 			<div class="card">
-				<a href="#">
+				<a href="#" target="_self">
 				<div class="card-image watch4">
 					
 				</div>
-				<h2>Samsung Galaxy Watch 5</h2>
+				<h2>Apple Watch Ultra</h2>
 				<p class="p3" id="demo4" onmouseover="mouseOver4()" onmouseout="mouseOut4()">From $729.99</p>
 				<p class="p4">From $800.00 before eligible trade-in</p>
 
@@ -100,12 +121,12 @@
 			</div>
 		        </a>
 			<div class="card">
-				<a href="#">
+				<a href="#" target="_self">
 				<div class="card-image watch5">
 					
 				</div>
-				<h2>Samsung Galaxy Watch 4</h2>
-				<a href="#">
+				<h2>Apple Watch Ultra</h2>
+				<a href="#" target="_self">
 				<p class="p3" id="demo5" onmouseover="mouseOver5()" onmouseout="mouseOut5()">From $829.99</p>
 			    </a>
 				<p class="p4">From $900.00 before eligible trade-in</p>
@@ -113,11 +134,11 @@
 			</div>
 		    </a>
 			<div class="card">
-				<a href="#">
+				<a href="#" target="_self">
 				<div class="card-image watch6">
 					
 				</div>
-				<h2>Samsung Galaxy Watch 6</h2>
+				<h2>Apple Watch Ultra</h2>
 				<p class="p3" id="demo6" onmouseover="mouseOver6()" onmouseout="mouseOut6()">From $929.99</p>
 				<p class="p4">From $1000.00 before eligible trade-in</p>
 				
@@ -129,13 +150,22 @@
         <img class="image" src="og__bb3dc50gux7m.png">
         <h1 class="image1" data-text="Three_Rings_._One_Goal_."></h1>
         </div>
-        <div class="samsung1">
 
-        	<img src="sasumg1.jpg" style="width:100%;height: 100%;">
-        	<p class="samsung_text1">SAMSUNG</p>
-        	<p class="samsung_text2">Gears</p>
-        	<button class="S_buttom">Buy</button>
+        <div>
+        	<img src="Apple_Phone.png" style="width:50%;height:100%;">
+        	<h3 class="contact_phone">Syncing</h3>
+        	<p3 class="info_contact">You can use find my apple watch after connecting the watch with phone.</p3>
+        	<p3 class="info_more" style="display: none;">
+        		<ul>
+        			<li>You can check your heart-beart.</li>
+        			<li>You can watch notifications everytime.</li>
+        			<li>You can count your steps without carring phone.</li>
+        			<li>You can use your watch as a map</li> 
+        		</ul>
+        	</p3>
+        	<button class="name">Learn More</button>
         </div>
+
 
 
 
