@@ -1,7 +1,7 @@
 
 body{
 	background-color: white;
-	background-image: url('ezgif.com-webp-to-jpg.jpg');
+	
 	background-size: 100%;
 	background-repeat: no-repeat;
 	}
@@ -21,6 +21,7 @@ h1{
 	
 	text-transform: uppercase;
 	min-height: 1cm;
+
 
 	
 
@@ -55,7 +56,7 @@ h1:before{
 	font-size: 0.8cm;
 	font-family: "Audiowide", sans-serif;
 	margin-left: 45%;
-	margin-top: 50.5%;
+	margin-top: -10%;
 	color: black;
 
 
@@ -85,19 +86,19 @@ a{
 	width: 800px;
 	height: 400px;
 	margin: 60px;
-	border: 1px solid black;
+	border: 1px solid white;
 	border-radius:20px;
 }
 .card-image{
-	background-color: ghostwhite;
+	background-color: white;
 	border-radius: 20px 20px 0px 0px;
 	height: 300px;
 
 
 }
 .watch1{
-	background-image: url('watch.jpg');
-	background-size: 300px 230px;
+	background-image: url('Apple_Watch_Series6.jpg');
+	background-size: 300px 250px;
 	height: 200px;
 	image-resolution: 300dpi;
 	padding-top:10% ;
@@ -105,41 +106,41 @@ a{
 
 }
 .watch2{
-	background-image: url('ezgif.com-webp-to-jpg.jpg');
-	background-size: 300px 225px;
+	background-image: url('Apple_Series8.jpg');
+	background-size: 260px 250px;
 	height: 200px;
 	image-resolution: 300dpi;
 	padding-top: 10%;
 
 }
 .watch3{
-	background-image: url('watch1.jpg');
-	background-size: 300px 230px;
+	background-image: url('Apple_Series7.jpg');
+	background-size: 283px 230px;
 	height: 200px;
 	image-resolution: 300dpi;
 	padding-top: 10%;
 
 }
 .watch4{
-	background-image: url('s_watch12.jpg');
+	background-image: url('49-cell-titanium-ocean-yellow-ultra.jpg');
 	background-size: 350px 230px;
 	height: 200px;
 	image-resolution: 300dpi;
 	padding-top: 10%;	
 }
 .watch5{
-	background-image: url('watch012.jpg');
-	background-size: 370px 230px ;
+	background-image: url('apple-watch-ultra-1.jpg');
+	background-size: 400px 240px ;
 	height: 200px;
-	image-resolution: 300dpi;
+	image-resolution: 500dpi;
 	padding-top: 10%;
 
 
 
 }
 .watch6{
-	background-image: url('Samsung-Galaxy-Watch-61.jpg');
-	background-size: 340px 230px;
+	background-image: url('Apple_ultra2.png');
+	background-size: 300px 250px;
 	height: 200px;
 	image-resolution: 300dpi;
 	padding-top: 10%;	
@@ -240,7 +241,7 @@ h2{
 }
 p1{
 	position: absolute;
-	top: 135%;
+	top: 258%;
 	left: 50%;
 	
 	color: black;
@@ -250,7 +251,7 @@ p1{
 }
 .text{
 		position: absolute;
-	top: 140%;
+	top: 260%;
 	left: 50%;
 	
 	color: black;
@@ -261,7 +262,7 @@ p1{
 }
 .buttom_A{
 			position: absolute;
-	top: 152%;
+	top: 270%;
 	left: 50%;
 	
 	color: black;
@@ -300,44 +301,102 @@ p1{
 .learn_more:hover{
 	color: black;
 }
-.samsung1{
+
+.title{
+	position: relative;
+	text-align: center;
+	color: white;
+
+}
+.Apple{
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size:1.3cm ;
+	
+
+}
+.button_series8{
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: black;
+	font-size:0.5cm ;
+	background-color: deepskyblue;
+	border-radius: 40px;
+	width: 100px;	
+
+}
+.button_series8:hover{
+	background-color: white;
+}
+.title_Apple{
 	position: relative;
 	text-align: center;
 	color: white;
 }
-.samsung_text1{
+.apple_title{
 	position: absolute;
-	top: 30%;
-	left: 20%;
+	top: 0%;
+	left: 50%;
 	transform: translate(-50%,-50%);
 	color: black;
-	font-size:1.3cm ;
-
-}
-.samsung_text2{
-	position: absolute;
-	top: 40%;
-	left: 20%;
-	transform: translate(-50%,-50%);
-	color: black;
-	font-size:1.3cm ;
+	font-size:1cm ;	
 	font-family: cursive;
-
 }
-.S_buttom{
+.button_apple{
 	position: absolute;
-	top: 60%;
-	left: 20%;
+	top: 13%;
+	left: 50%;
 	transform: translate(-50%,-50%);
-	border-radius: 30px;
-	width: 90px;
-	height: 40px;
-	background-color: deepskyblue;
 	color: white;
-	
-	
-
+	font-size:0.4cm ;
+	background-color: deepskyblue;
+	border-radius: 40px;
+	width: 100px;	
 }
-.S_buttom:hover{
-    background-color: black;
+.button_apple:hover{
+	background-color: black;
+}
+.contact_phone{
+	text-align: right;
+	margin-top: -60%;
+	margin-right: 20%;
+	font-size: 1.5cm;
+	font-family: cursive;
+}
+.info_contact{
+	text-align: right;
+	margin-top: -55%;
+	margin-left: 50%;
+	font-size: 0.5cm;	
+}
+.name{
+   	text-align: right;
+	margin-top: 1%;
+	margin-left: 68%;
+	font-size: 0.5cm;
+	background-color: transparent;	
+	border: none;
+	color: deepskyblue;
+}
+.info_more{
+  
+	margin-top: 1%;
+	margin-left: 40%;
+	font-size: 0.5cm;
+
+
+
+	
+}
+li{
+	margin-top: 1%;
+	margin-left: 50%;
+	font-size: 0.5cm;
+	color: deepskyblue;
+
 }
