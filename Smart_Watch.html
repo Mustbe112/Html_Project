@@ -9,18 +9,23 @@
 	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
 	<script type="text/javascript">
-		$(document).ready(function() {
+		$(".info_more").ready(function() {
 			$(".name").click(function() {
-				$(".info_more").slideDown("slow");
+				$(".info_more").toggle("slow");
+
 			});
+
 		});
+
 	</script>
 </head>
 <body>
 	<div class="title_Apple">
 		<img src="Apple_Watch_Ultra.png" style="width:100%;height: 100%;">
 		<h3 class="apple_title">Find New Experience With Ultra</h3>
-		<a href="#" target="_self"><button class="button_apple">Buy</button></a>
+		<h3 class="price">From $799</h3>
+		<a href="#" target="_self"><button class="button_apple">Buy ></button></a>
+		<a href="#" target="_self"><button class="button_apple_learn">Learn more</button></a>
 	</div>
 
     <div class="title">
@@ -51,6 +56,7 @@
         <div class="top_right">
         	<img src="og__n5qzveqr596m.png" style="width: 100%; height: 100%;">
         	<p class="text1">Explore With Us</p>
+        	<p class="text2">Discount 10%</p>
         	<a href="#" target="_self"><p class="learn_more">Learn more</p></a>
         </div>	
 
@@ -150,21 +156,36 @@
         <img class="image" src="og__bb3dc50gux7m.png">
         <h1 class="image1" data-text="Three_Rings_._One_Goal_."></h1>
         </div>
+        <div class="health">
+        		<img src="ios-16-watch-os7-fitness-plus-hero.png" style="width:50%;height: 100%;">
+        		<h4 class="health_title">Health App</h4>
+        		<p1 class="health_info">You health data.In your control.</p1>
+
+        </div>
 
         <div>
         	<img src="Apple_Phone.png" style="width:50%;height:100%;">
         	<h3 class="contact_phone">Syncing</h3>
         	<p3 class="info_contact">You can use find my apple watch after connecting the watch with phone.</p3>
         	<p3 class="info_more" style="display: none;">
-        		<ul>
-        			<li>You can check your heart-beart.</li>
-        			<li>You can watch notifications everytime.</li>
-        			<li>You can count your steps without carring phone.</li>
-        			<li>You can use your watch as a map</li> 
+        		<div>
+        		<ul class="li">
+        			<li class="li1">Monitor heart-beart.</li>
+        			<li class="li2">Get notifications everytime.</li>
+        			<li class="li3">Count steps without using phone.</li>
+        			<li class="li4">Use as a map</li> 
         		</ul>
+        	    </div>
         	</p3>
         	<button class="name">Learn More</button>
+
         </div>
+        <div class="h">
+        	<p>Hi</p>
+        </div>
+
+
+
 
 
 
