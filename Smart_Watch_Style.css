@@ -395,7 +395,7 @@ p1{
 }
 .contact_phone{
 	text-align: right;
-	margin-top: -60%;
+	margin-top: -130%;
 	margin-right: 20%;
 	font-size: 1.5cm;
 	font-family: cursive;
@@ -424,27 +424,9 @@ p1{
 	margin-left: 40%;
 	font-size: 0.5cm;
 }
-.li1{
+li{
 	margin-top: 1%;
-	margin-left: 50%;
-	font-size: 0.5cm;
-	color: deepskyblue;
-}
-.li2{
-	margin-top: 1%;
-	margin-left: 50%;
-	font-size: 0.5cm;
-	color: deepskyblue;
-}
-.li3{
-	margin-top: 1%;
-	margin-left: 50%;
-	font-size: 0.5cm;
-	color: deepskyblue;
-}
-.li4{
-	margin-top: 1%;
-	margin-left: 50%;
+	margin-left: 55%;
 	font-size: 0.5cm;
 	color: deepskyblue;
 }
@@ -468,7 +450,10 @@ p1{
    margin-left: -25%;
    font-size: 0.7cm;
 }
-
+h5{
+	color: black;
+	margin-left: 50%;
+}
 
 
 
