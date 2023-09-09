@@ -1,0 +1,265 @@
+
+.container{
+  padding: 2rem;
+}
+.slider-wrapper{
+  position: relative;
+  max-width: 40rem;
+  margin-left: 5%;
+
+
+  
+
+}
+
+.slider{
+  display: flex;
+  aspect-ratio: 10/8;
+  overflow-x:auto ;
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 40px;
+
+
+}
+.slider img{
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+
+}
+.slider-nav{
+  display: flex;
+  column-gap: 2rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  color: gray;
+}
+.slider-nav a{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: grey;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+.slider-nav a:hover{
+  opacity: 1;
+}
+
+.head{
+  margin-left: 10%;
+  color: black;
+  font-size: 1.5cm;
+  color: yellowgreen;
+}
+.c{
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -4.5%;
+  font-size: 0.4cm;
+  color: yellowgreen;
+}
+.price{
+  margin-left: 23%;
+  margin-top: -3%;
+  font-size: 0.9cm;
+  color: deepskyblue;
+}
+.color{
+  position: absolute;
+  margin-left: 61.99%;
+  font-size: 0.5cm;
+  margin-top: 5.7%;
+  
+}
+.orange{
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  background-color: orangered;
+  position: absolute;
+  margin-left: 75%;
+  margin-top:6% ;
+  cursor: pointer;
+}
+.black{
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  margin-left: 80%;
+  margin-top:6% ;
+  cursor: pointer;
+}
+.yellow{
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  position: absolute;
+  margin-left: 85%;
+  margin-top:6% ;  
+  cursor: pointer;
+}
+.select_b{
+  position: absolute;
+  margin-left: 62%;
+  margin-top: 13%;
+  font-size: 0.8cm;
+}
+
+.wrapper1{
+  
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+.container1{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 0 25px rgba(17, 1, 68, 0.08);
+  border-radius: 8px;
+  cursor: pointer;
+}
+input[type="checkbox"]{
+  -webkit-apperance:none;
+  border:1px solid black;
+  position: relative;
+  width: %;
+  cursor: pointer;
+}
+.container1 .photo1{
+  width: 90%;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  top: 12px;
+  bottom: 0;
+  left: -10px;
+
+}
+.wrapper2{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  margin-left: 40%;
+  margin-top: 20%;  
+}
+.container2{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 0 25px rgba(17, 1, 68, 0.08);
+  border-radius: 8px;
+  cursor: pointer;
+}
+input[type="checkbox"]{
+  -webkit-apperance:none;
+  border:1px solid black;
+  position: relative;
+  cursor: pointer;
+}
+.container2 .photo2{
+  width: 90%;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  top: 12px;
+  bottom: 0;
+  left: -10px;
+
+}
+.defination{
+  margin-top: 50%;
+  position: absolute;
+  margin-left: 10%;
+  text-decoration: underline;
+  color: orangered;
+}
+.des{
+  margin-top: 55%;
+  position: absolute;
+  margin-left: 10%;
+  width: 30%;
+  font-size: 0.5cm;
+
+
+}
+.select1{
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 38%;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+.cta {
+  border: none;
+  background: none;
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 55%;
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.thank{
+  position: absolute;
+  margin-top: 70%;
+  margin-left: 10%;
+  font-size: 0.3cm;
+}
