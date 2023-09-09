@@ -331,15 +331,16 @@ p1{
 	top: 18%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	color: black;
-	font-size:0.5cm ;
-	background-color: deepskyblue;
-	border-radius: 40px;
-	width: 100px;	
+	color: deepskyblue;
+	font-size:0.7cm ;
+	background-color: transparent;
+	border: none;
+	width: 200px;
+	text-decoration: underline;	
 
 }
 .button_series8:hover{
-	background-color: white;
+	color: white;
 }
 .title_Apple{
 	position: relative;
@@ -395,7 +396,7 @@ p1{
 }
 .contact_phone{
 	text-align: right;
-	margin-top: -130%;
+	margin-top: -50%;
 	margin-right: 20%;
 	font-size: 1.5cm;
 	font-family: cursive;
@@ -436,7 +437,7 @@ li{
 }
 .health_title{
    text-align: left;
-   margin-top: -30%;
+   margin-top: -25%;
    position: absolute;
    font-family: cursive;
    margin-left: 15%;
@@ -444,7 +445,7 @@ li{
 }
 .health_info{
    text-align: left;
-   margin-top: -74%;
+   margin-top: -68%;
    position: absolute;
    font-family: cursive;
    margin-left: -25%;
@@ -454,8 +455,9 @@ h5{
 	color: black;
 	margin-left: 50%;
 }
-
-
+html{
+	scroll-behavior: smooth;
+}
 
 
 
