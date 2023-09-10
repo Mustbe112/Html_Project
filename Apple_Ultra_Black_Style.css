@@ -44,7 +44,7 @@
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  background-color: grey;
+  background-color: black;
   opacity: 0.75;
   transition: opacity ease 250ms;
 }
@@ -54,14 +54,15 @@
 
 .head{
   margin-left: 10%;
-  color: black;
+  color: orangered;
   font-size: 1.5cm;
 }
 .c{
-  position: absolute;
   margin-left: 25%;
-  margin-top: -4.5%;
+  color: orangered;
   font-size: 0.4cm;
+  margin-top: -4.5%;
+  position: absolute;
 }
 .price{
   margin-left: 23%;
